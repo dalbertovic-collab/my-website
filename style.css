@@ -1,0 +1,124 @@
+/* 1. Стилі для всієї сторінки (тег <body>) */
+
+body {
+
+    background-color: #f4f4f4; /* Світло-сірий фон */
+
+    font-family: Arial, sans-serif; /* Шрифт для всього тексту */
+
+    color: #333; /* Темно-сірий колір основного тексту */
+
+    margin: 0; /* Прибираємо стандартні відступи браузера */
+
+}
+
+/* 2. Стилі для заголовків */
+
+h1 {
+
+    color: white;
+
+    text-align: center; /* Розміщуємо текст по центру */
+
+    padding: 20px;
+
+}
+
+h2 {
+
+    color: #007bff; /* Синій колір для h2 */
+
+}
+
+/* 3. Стилі для верхнього блоку (шапки) */
+
+header {
+
+    background-color: #333; /* Темний фон для шапки */
+
+    margin-bottom: 20px;
+
+}
+
+/* 4. Стилі для навігаційного меню (тег <nav>) */
+
+nav ul {
+
+    list-style: none; /* Прибираємо маркери перед пунктами */
+
+    background-color: #ddd;
+
+    overflow: hidden; /* Щоб елементи li були в ряд */
+
+    padding: 10px 0;
+
+    text-align: center;
+
+}
+
+nav li {
+
+    display: inline; /* Розміщуємо елементи меню в один ряд */
+
+    margin: 0 15px;
+
+}
+
+nav a {
+
+    text-decoration: none; /* Прибираємо підкреслення у посилань */
+
+    color: #333;
+
+    font-weight: bold;
+
+}
+
+/* 5. Стилі для основної секції */
+
+section {
+
+    width: 80%; /* Ширина основної частини сторінки */
+
+    margin: 0 auto; /* Вирівнювання по центру */
+
+    padding: 20px;
+
+    background-color: white;
+
+    border-radius: 8px; /* Заокруглені кути блоку */
+
+}
+
+
+/* 6. Стилі для спеціальних класів */
+
+/* Це правило застосовується лише до тегів з атрибутом class="важлива_інформація" */
+
+.важлива_інформація {
+
+    border: 2px solid #ff4500; /* Червона рамка */
+
+    padding: 10px;
+
+    background-color: #fff0f0; /* Дуже світло-червоний фон */
+
+    color: #ff4500; /* Червоний текст */
+
+}
+
+/* 7. Стилі для нижнього колонтитула */
+
+footer {
+
+    text-align: center;
+
+    padding: 10px;
+
+    margin-top: 30px;
+
+    font-size: 0.9em;
+
+    color: #777;
+
+}
